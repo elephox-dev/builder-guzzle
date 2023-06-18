@@ -1,0 +1,24 @@
+{
+    "name": "elephox/builder-guzzle",
+    "description": "Adds a Guzzle client to Elephox application builders",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ricardo Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "elephox/framework": "dev-develop",
+        "guzzlehttp/guzzle": "@stable"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Elephox\\Builder\\Guzzle\\": "src/"
+        }
+    }
+}
